@@ -15,6 +15,12 @@ import java.text.NumberFormat;
 import java.util.List;
 import java.util.Locale;
 
+/**
+ * author:
+ * M Deni Firdaus - Paragraph.id
+ * 2020
+ */
+
 public class CountryDataAdapter extends RecyclerView.Adapter<CountryDataAdapter.CountryDataViewHolder>  {
 
     private List<GlobalDataCountryModel> dataList;

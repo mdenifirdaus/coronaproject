@@ -22,6 +22,12 @@ import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
 import java.util.Locale;
 
+/**
+ * author:
+ * M Deni Firdaus - Paragraph.id
+ * 2020
+ */
+
 public class Tools {
     public static String FormatNumber(int value){
         String x = NumberFormat.getNumberInstance(Locale.US).format(value);

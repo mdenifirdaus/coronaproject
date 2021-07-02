@@ -1,5 +1,11 @@
 package com.qif.id.paragraph;
 
+/**
+ * author:
+ * M Deni Firdaus - Paragraph.id
+ * 2020
+ */
+
 public class TargetDomain {
     public static String DomainTarget="https://api.kawalcorona.com";
 

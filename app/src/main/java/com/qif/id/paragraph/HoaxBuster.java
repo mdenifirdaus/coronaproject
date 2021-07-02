@@ -9,6 +9,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 
+/**
+ * author:
+ * M Deni Firdaus - Paragraph.id
+ * 2020
+ */
+
 public class HoaxBuster extends AppCompatActivity {
 
     Toolbar mToolbar;

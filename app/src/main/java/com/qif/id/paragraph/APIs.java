@@ -1,9 +1,5 @@
 package com.qif.id.paragraph;
 
-
-
-
-
 import com.qif.id.paragraph.Model.DataCountIndonesiaModel;
 import com.qif.id.paragraph.Model.GlobalCaseCountModel;
 import com.qif.id.paragraph.Model.GlobalDataCountryModel;
@@ -13,6 +9,12 @@ import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
+
+/**
+ * author:
+ * M Deni Firdaus - Paragraph.id
+ * 2020
+ */
 
 public interface APIs {
 

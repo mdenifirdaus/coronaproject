@@ -1,5 +1,11 @@
 package com.qif.id.paragraph.Model;
 
+/**
+ * author:
+ * M Deni Firdaus - Paragraph.id
+ * 2020
+ */
+
 public class DataCountIndonesiaModel {
     public String name;
 
