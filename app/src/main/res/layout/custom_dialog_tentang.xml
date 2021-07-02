@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentang"
+            android:textStyle="bold"
+            android:id="@+id/lblDialogTentang"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developers"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:id="@+id/lblDialogDeveloper"
+            android:layout_below="@+id/lblDialogTentang"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paragraph \nIG: (@paragraphid)"
+            android:layout_marginLeft="15dp"
+            android:textSize="13dp"
+            android:id="@+id/lblDialogParagraph"
+            android:layout_below="@+id/lblDialogDeveloper"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sumber data dan APIs"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:id="@+id/lblDialogAPI"
+            android:layout_below="@+id/lblDialogParagraph"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblDialogAPI"
+            android:layout_marginLeft="15dp"
+            android:textSize="13dp"
+            android:id="@+id/lblDialogKawal"
+            android:text="kawalcorona.com"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:id="@+id/lblDialogLink"
+            android:text="Link tautan informasi"
+            android:layout_below="@+id/lblDialogKawal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="covid19.go.id"
+            android:textSize="13dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/lblDialogLink"/>
+
+    </RelativeLayout>
+</RelativeLayout>

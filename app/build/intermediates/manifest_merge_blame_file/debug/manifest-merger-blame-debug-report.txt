@@ -1,0 +1,138 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.qif.id.paragraph"
+4    android:versionCode="3"
+5    android:versionName="1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:34:5-36:35
+12        android:glEsVersion="0x00020000"
+12-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:35:9-41
+13        android:required="true" />
+13-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:36:9-32
+14
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:37:5-76
+15-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:37:22-73
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:38:5-67
+16-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:38:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:40:5-79
+17-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:40:22-76
+18
+19    <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.android.gms:play-services-gcm:16.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/c1c1393770c6a7fac0ebd0d45abfed6b/jetified-play-services-gcm-16.0.0/AndroidManifest.xml:23:5-82
+20-->[com.google.android.gms:play-services-gcm:16.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/c1c1393770c6a7fac0ebd0d45abfed6b/jetified-play-services-gcm-16.0.0/AndroidManifest.xml:23:22-79
+21
+22    <application
+22-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:5:5-32:19
+23        android:allowBackup="true"
+23-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:6:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/32f4f944aca9213f676acf60269714d3/core-1.1.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@drawable/ic_virus_red"
+26-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:7:9-46
+27        android:label="@string/app_name"
+27-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:8:9-41
+28        android:networkSecurityConfig="@xml/network_security_config"
+28-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:9:9-69
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:10:9-54
+30        android:supportsRtl="true"
+30-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:11:9-35
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:12:9-40
+33        <activity android:name="com.qif.id.paragraph.HoaxBuster" />
+33-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:13:9-77
+33-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:13:19-65
+34        <activity android:name="com.qif.id.paragraph.Notif" />
+34-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:14:9-63
+34-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:14:19-60
+35        <activity android:name="com.qif.id.paragraph.TanyaJawab" />
+35-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:15:9-68
+35-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:15:19-65
+36        <activity android:name="com.qif.id.paragraph.ProvinsiDetail" />
+36-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:16:9-72
+36-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:16:19-69
+37        <activity android:name="com.qif.id.paragraph.DetailNegaraLain" />
+37-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:17:9-74
+37-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:17:19-71
+38        <activity android:name="com.qif.id.paragraph.MainActivity" >
+38-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:18:9-24:20
+38-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:18:19-67
+39            <intent-filter>
+39-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:19:13-23:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:20:17-69
+40-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:20:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:22:17-77
+42-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:22:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <meta-data
+46-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:26:9-28:71
+47            android:name="com.google.android.geo.API_KEY"
+47-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:27:13-58
+48            android:value="AIzaSyC5s7fmZrZ8rSjIdTBkO4gX3TliB5uXeps" />
+48-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:28:13-68
+49        <meta-data
+49-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:29:9-31:69
+50            android:name="com.google.android.gms.version"
+50-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:30:13-58
+51            android:value="@integer/google_play_services_version" />
+51-->/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/AndroidManifest.xml:31:13-66
+52        <!-- Needs to be explicitly declared on P+ -->
+53        <uses-library
+53-->[com.google.android.gms:play-services-maps:16.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/3339abadc252790ecf362051aa0b34b0/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
+54            android:name="org.apache.http.legacy"
+54-->[com.google.android.gms:play-services-maps:16.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/3339abadc252790ecf362051aa0b34b0/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
+55            android:required="false" />
+55-->[com.google.android.gms:play-services-maps:16.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/3339abadc252790ecf362051aa0b34b0/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
+56
+57        <activity
+57-->[com.google.android.gms:play-services-auth:16.0.1] /Users/user/.gradle/caches/transforms-2/files-2.1/05149fc8e575793b5ac918e86af37477/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+58            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+58-->[com.google.android.gms:play-services-auth:16.0.1] /Users/user/.gradle/caches/transforms-2/files-2.1/05149fc8e575793b5ac918e86af37477/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+59            android:excludeFromRecents="true"
+59-->[com.google.android.gms:play-services-auth:16.0.1] /Users/user/.gradle/caches/transforms-2/files-2.1/05149fc8e575793b5ac918e86af37477/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+60            android:exported="false"
+60-->[com.google.android.gms:play-services-auth:16.0.1] /Users/user/.gradle/caches/transforms-2/files-2.1/05149fc8e575793b5ac918e86af37477/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->[com.google.android.gms:play-services-auth:16.0.1] /Users/user/.gradle/caches/transforms-2/files-2.1/05149fc8e575793b5ac918e86af37477/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+62        <!--
+63            Service handling Google Sign-In user revocation. For apps that do not integrate with
+64            Google Sign-In, this service will never be started.
+65        -->
+66        <service
+66-->[com.google.android.gms:play-services-auth:16.0.1] /Users/user/.gradle/caches/transforms-2/files-2.1/05149fc8e575793b5ac918e86af37477/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+67            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+67-->[com.google.android.gms:play-services-auth:16.0.1] /Users/user/.gradle/caches/transforms-2/files-2.1/05149fc8e575793b5ac918e86af37477/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+68            android:exported="true"
+68-->[com.google.android.gms:play-services-auth:16.0.1] /Users/user/.gradle/caches/transforms-2/files-2.1/05149fc8e575793b5ac918e86af37477/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+69            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+69-->[com.google.android.gms:play-services-auth:16.0.1] /Users/user/.gradle/caches/transforms-2/files-2.1/05149fc8e575793b5ac918e86af37477/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+70
+71        <activity
+71-->[com.google.android.gms:play-services-base:16.0.1] /Users/user/.gradle/caches/transforms-2/files-2.1/edd510c85d4bd0bc4ac849acaca0bf54/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+72-->[com.google.android.gms:play-services-base:16.0.1] /Users/user/.gradle/caches/transforms-2/files-2.1/edd510c85d4bd0bc4ac849acaca0bf54/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-base:16.0.1] /Users/user/.gradle/caches/transforms-2/files-2.1/edd510c85d4bd0bc4ac849acaca0bf54/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-base:16.0.1] /Users/user/.gradle/caches/transforms-2/files-2.1/edd510c85d4bd0bc4ac849acaca0bf54/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+75    </application>
+76
+77</manifest>

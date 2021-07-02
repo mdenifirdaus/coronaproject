@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/layout_radius_general">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutHeaderCountry">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:id="@+id/layoutCountryVirus">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/ic_virus_red"
+                    android:id="@+id/imgCountryVirus"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="8dp"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/layoutCountryVirus">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lblCountryId"
+                    android:text="tes id"
+                    android:layout_below="@+id/lblCountryKasusPositif"
+                    android:visibility="invisible"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Indonesia"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/lblCountryName"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10,10"
+                    android:textStyle="bold"
+                    android:textSize="12dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/lblCountryKasusPositif"
+                    android:layout_below="@+id/lblCountryName"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kasus Positif"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_below="@+id/lblCountryName"
+                    android:layout_toRightOf="@+id/lblCountryKasusPositif"/>
+            </RelativeLayout>
+        </RelativeLayout>
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_below="@+id/layoutHeaderCountry">-->
+
+<!--            <fragment-->
+<!--                android:id="@+id/mapResponder"-->
+<!--                android:name="com.google.android.gms.maps.SupportMapFragment"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginRight="5dp"-->
+<!--                android:layout_marginBottom="10dp"/>-->
+
+<!--        </RelativeLayout>-->
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/layoutHeader1"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:id="@+id/imgFlagIndonesia"
+            app:srcCompat="@drawable/ic_globe"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="3dp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/imgFlagIndonesia"
+            android:text="Infeksi Global"
+            android:textColor="@color/colorBackground"
+            android:textSize="12dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_toRightOf="@+id/layoutHeader1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_notif"
+            android:layout_marginRight="20dp"
+            android:id="@+id/imgNotif"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:background="@drawable/layout_badge"
+            android:text="0"
+            android:id="@+id/lblNotifCount"
+            android:textAlignment="center"
+            android:layout_width="16dp"
+            android:layout_marginTop="17dp"
+            android:textColor="@color/colorWhite"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutHeader1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0,0"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/lblCountPositive"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorBackground"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kasus Positif"
+            android:textSize="10dp"
+            android:textColor="@color/colorBackground"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/lblCountPositive"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="125dp"
+        android:id="@+id/layoutPrimary"
+        android:background="@drawable/layout_corner_baground">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/layoutDataHeader1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Update Kasus Covid-19"
+                        android:textSize="15dp"
+                        android:id="@+id/lblUpdate"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Data yang ditampilkan akan selalu up-to-date"
+                        android:textSize="10dp"
+                        android:layout_below="@+id/lblUpdate"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/layoutIklan"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_below="@+id/layoutDataHeader1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:id="@+id/layoutTanyaJawab"
+                        android:background="@drawable/layout_corner_radius_addon">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tanya Jawab seputar Covid-19"
+                            android:textColor="@color/colorWhite"
+                            android:layout_marginLeft="17dp"
+                            android:layout_centerVertical="true"/>
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="15dp"
+                            app:srcCompat="@drawable/ic_arrow_right"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/layoutIklan">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:id="@+id/layoutDataIndonesia">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Data Indonesia"
+                            android:textSize="13dp"
+                            android:textStyle="bold"
+                            android:id="@+id/lblKasusIndonesia"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/layout_corner_white"
+                            android:layout_below="@+id/lblKasusIndonesia">
+
+                            <RelativeLayout
+                                android:layout_width="110dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/layoutIndonesiaPositif">
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@drawable/ic_virus"
+                                    android:layout_marginTop="10dp"
+                                    android:id="@+id/imgPositif"
+                                    android:layout_centerHorizontal="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:layout_below="@+id/imgPositif"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="5dp"
+                                    android:textSize="20dp"
+                                    android:textColor="@color/colorYellow"
+                                    android:id="@+id/lblIndonesiaPositifCount"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/lblIndonesiaPositifCount"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Kasus Positif"
+                                    android:textSize="10dp"
+                                    android:layout_marginBottom="10dp"/>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="110dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/layoutIndonesiaSembuh"
+                                android:layout_toRightOf="@+id/layoutIndonesiaPositif">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@drawable/ic_recovery"
+                                    android:layout_marginTop="10dp"
+                                    android:id="@+id/imgSembuh"
+                                    android:layout_centerHorizontal="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:layout_below="@+id/imgSembuh"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="5dp"
+                                    android:textSize="20dp"
+                                    android:textColor="@color/colorHijau"
+                                    android:id="@+id/lblIndonesiaSembuhCount"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/lblIndonesiaSembuhCount"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Sembuh"
+                                    android:textSize="10dp"
+                                    android:layout_marginBottom="10dp"/>
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="110dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/layoutIndonesiaSembuh">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@drawable/ic_dead"
+                                    android:layout_marginTop="10dp"
+                                    android:id="@+id/imgMeninggal"
+                                    android:layout_centerHorizontal="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:layout_below="@+id/imgMeninggal"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="5dp"
+                                    android:textSize="20dp"
+                                    android:textColor="@color/colorRed"
+                                    android:id="@+id/lblIndonesiaMeninggalCount"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/lblIndonesiaMeninggalCount"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Meninggal"
+                                    android:textSize="10dp"
+                                    android:layout_marginBottom="10dp"/>
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/layoutDataNegaraLain"
+                        android:layout_below="@+id/layoutDataIndonesia">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="13dp"
+                            android:textStyle="bold"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/lblNegaraLain"
+                            android:text="Negara Lain - Kasus Terbesar"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Telah menginfeksi "
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/lblCountInfeksiNegara"
+                            android:textSize="11dp"
+                            android:layout_below="@+id/lblNegaraLain"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lihat Semua"
+                            android:textSize="12dp"
+                            android:id="@+id/lblLihatSemuaNegara"
+                            android:layout_below="@+id/lblNegaraLain"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:layout_marginRight="15dp"
+                            android:layout_alignParentRight="true"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/lblCountInfeksiNegara"
+                            android:layout_marginTop="5dp">
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/recyclerTopCountry" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/layoutDataProvinsi"
+                        android:layout_below="@+id/layoutDataNegaraLain">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="13dp"
+                            android:textStyle="bold"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/lblIndonesiaProvinsi"
+                            android:text="Provinsi Di Indonesia"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Telah menginfeksi"
+                            android:textSize="11dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_below="@+id/lblIndonesiaProvinsi"
+                            android:id="@+id/lblTotalInfeksiProvinsi"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lihat Semua"
+                            android:textSize="12dp"
+                            android:id="@+id/lblLihatProv"
+                            android:layout_below="@+id/lblIndonesiaProvinsi"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:layout_marginRight="15dp"
+                            android:layout_alignParentRight="true"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:layout_below="@+id/lblTotalInfeksiProvinsi">
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/recyclerIndonesiaProv"/>
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/layoutHoaxBuster"
+                        android:layout_below="@+id/layoutDataProvinsi">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="13dp"
+                            android:textStyle="bold"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/lblHeadHoax"
+                            android:text="Hoax Buster #LawanHoaxCorona"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="11dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/lblSubTitleHoax"
+                            android:text="Pastikan berita yang Kamu dapat dan sebarkan itu benar!"
+                            android:layout_below="@+id/lblHeadHoax" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/layoutLihatHoaxBuster"
+                            android:background="@drawable/layout_radius_general"
+                            android:layout_below="@+id/lblSubTitleHoax">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:src="@drawable/hoax_corona"
+                                android:scaleType="centerCrop"
+                                android:id="@+id/imgHoaxBust"/>
+
+                            <RelativeLayout
+                                android:layout_width="100dp"
+                                android:layout_height="0.3dp"
+                                android:layout_marginLeft="17dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="8dp"
+                                android:layout_marginTop="8dp"
+                                android:background="@color/colorPrimaryDark"
+                                android:id="@+id/DivideHoax"
+                                android:layout_below="@+id/imgHoaxBust"
+                                android:layout_centerHorizontal="true"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cari Kebenaran Berita"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="10dp"
+                                android:textSize="11dp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:layout_below="@+id/DivideHoax"
+                                android:layout_toLeftOf="@+id/imgArrowHoax"/>
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:id="@+id/imgArrowHoax"
+                                android:layout_marginBottom="10dp"
+                                android:layout_below="@+id/DivideHoax"
+                                app:srcCompat="@drawable/ic_arrow_right_color"/>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/layoutPetaSebaran"
+                        android:layout_marginBottom="25dp"
+                        android:layout_below="@+id/layoutHoaxBuster">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="13dp"
+                            android:textStyle="bold"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/lblPetaSebaran"
+                            android:text="Terapkan Social Distancing dan #DirumahAja"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="11dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/lblCegah"
+                            android:text="Bersama-sama cegah &amp; lawan penularan Covid-19"
+                            android:layout_below="@+id/lblPetaSebaran" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/layout_radius_general"
+                            android:layout_below="@+id/lblCegah">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:layout_margin="2dp"
+                                android:src="@drawable/img_kesehatan"/>
+
+<!--                            <fragment-->
+<!--                                android:id="@+id/map"-->
+<!--                                android:name="com.google.android.gms.maps.SupportMapFragment"-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="150dp"-->
+<!--                                android:layout_marginLeft="5dp"-->
+<!--                                android:layout_marginRight="5dp"-->
+<!--                                android:layout_marginTop="5dp"-->
+<!--                                android:layout_marginBottom="5dp"/>-->
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="0.3dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginRight="17dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:id="@+id/DividerEnd"
+                        android:layout_below="@+id/layoutPetaSebaran"
+                        android:layout_centerHorizontal="true"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_below="@+id/DividerEnd">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bersama #LawanCorona"
+                            android:textSize="12dp"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/lblMadeWith"
+                            android:textColor="@color/colorPrimaryDark"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/lblMadeWith"
+                            android:layout_marginTop="1dp"
+                            android:textSize="12dp"
+                            android:layout_marginBottom="5dp"
+                            android:id="@+id/lblMadeBy"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:text="Made by Paragraph. for Indonesian Good People"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lihat Tentang Aplikasi"
+                            android:background="@drawable/layout_corner_green"
+                            android:id="@+id/lblLinkTentang"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp"
+                            android:paddingRight="10dp"
+                            android:textSize="11dp"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/colorWhite"
+                            android:textColorLink="@color/colorPrimary"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_below="@+id/lblMadeBy"/>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBackground"/>
+
+</RelativeLayout>

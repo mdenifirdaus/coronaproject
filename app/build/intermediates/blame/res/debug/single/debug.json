@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/layout_activity_provinsi_detail.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/layout/activity_provinsi_detail.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_ic_map_pin.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_map_pin.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_ic_virus_red.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_virus_red.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_layout_corner_stroke.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/layout_corner_stroke.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_layout_corner_baground.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/layout_corner_baground.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/layout_layout_item_provinsi_detail.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/layout/layout_item_provinsi_detail.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_layout_radius_general.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/layout_radius_general.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/layout_activity_detail_negara_lain.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/layout/activity_detail_negara_lain.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_ic_arrow_right_color.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_arrow_right_color.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_ic_flag_indonesia.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_flag_indonesia.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/layout_activity_tanya_jawab.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/layout/activity_tanya_jawab.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/layout_custom_dialog_tentang.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/layout/custom_dialog_tentang.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_ic_arrow_right.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_arrow_right.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_ic_virus.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_virus.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_ic_recovery.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_recovery.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_layout_corner_radius_addon.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/layout_corner_radius_addon.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/layout_layout_item_notif.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/layout/layout_item_notif.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_ic_love.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_love.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/layout_layout_item_detail_negara_lain.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/layout/layout_item_detail_negara_lain.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_ic_virus_high.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_virus_high.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_ic_dead.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_dead.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_layout_badge.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/layout_badge.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_layout_corner_green.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/layout_corner_green.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_ic_globe.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_globe.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_ic_notif.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_notif.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/layout_layout_item_province.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/layout/layout_item_province.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_ic_about.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_about.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/layout_layout_item_country.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/layout/layout_item_country.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/layout_activity_hoax_buster.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/layout/activity_hoax_buster.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable-v24_img_kesehatan.jpg.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable-v24/img_kesehatan.jpg"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/layout_activity_notif.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/layout/activity_notif.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable-v24_hoax_corona.jpg.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable-v24/hoax_corona.jpg"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/debug/drawable_layout_corner_white.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/layout_corner_white.xml"
+    }
+]

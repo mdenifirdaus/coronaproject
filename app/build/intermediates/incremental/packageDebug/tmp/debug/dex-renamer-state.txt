@@ -1,0 +1,4 @@
+#Fri Jul 02 23:49:39 WIB 2021
+base.0=/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
