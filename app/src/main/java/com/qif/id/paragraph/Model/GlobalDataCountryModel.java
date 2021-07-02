@@ -1,5 +1,11 @@
 package com.qif.id.paragraph.Model;
 
+/**
+ * author:
+ * M Deni Firdaus - Paragraph.id
+ * 2020
+ */
+
 public class GlobalDataCountryModel {
     public com.qif.id.paragraph.Model.attributes getAttributes() {
         return attributes;

@@ -22,7 +22,11 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-
+/**
+ * author:
+ * M Deni Firdaus - Paragraph.id
+ * 2020
+ */
 public class Notif extends AppCompatActivity {
 
     androidx.appcompat.widget.Toolbar mToolbar;
