@@ -22,7 +22,7 @@ public class HoaxBuster extends AppCompatActivity {
         mToolbar = (Toolbar) findViewById(R.id.toolbarHoaxBus);
         webViewHoax = (WebView) findViewById(R.id.webViewHoax);
 
-        String url="https://www.covid19.go.id/hoaks-buster/";
+        String url="https://covid19.go.id/p/hoax-buster";
         webViewHoax.getSettings().setJavaScriptEnabled(true);
         webViewHoax.loadUrl(url);
 

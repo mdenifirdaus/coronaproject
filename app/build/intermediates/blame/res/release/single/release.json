@@ -84,12 +84,12 @@
         "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/release/drawable_ic_arrow_right.xml.flat",
-        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_arrow_right.xml"
-    },
-    {
         "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/release/layout_activity_detail_negara_lain.xml.flat",
         "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/layout/activity_detail_negara_lain.xml"
+    },
+    {
+        "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/release/drawable_ic_arrow_right.xml.flat",
+        "source": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/src/main/res/drawable/ic_arrow_right.xml"
     },
     {
         "merged": "/Users/user/Documents/Projects/Paragraph/CovidApp/CoronaProject/app/build/intermediates/res/merged/release/drawable_ic_map_pin.xml.flat",
